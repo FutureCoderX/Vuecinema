@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +6,7 @@
     text-decoration: none;
 }
 
-:root{
+:root {
     --bg: #040D1F;
     --white: #fff;
     --black: #000;
@@ -20,7 +20,7 @@
     --MB: 'MB', sans-serif;
 }
 
-body{
+body {
     background: var(--bg);
     color: var(--white);
 }
@@ -31,4 +31,25 @@ body{
     height: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    width: 166px;
+    height: 46px;
+    background: var(--lightor);
+    color: var(--black);
+    font-family: var(--RM);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: var(--bg);
+    color: var(--white);
+    font-size: 16px;
 }
